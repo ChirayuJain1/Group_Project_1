@@ -1,0 +1,387 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000000;
+}
+
+.logo {
+  float: left;
+}
+
+#navigation-container {
+  width: 100%;
+  max-width: 1200px; /* Limiting the width to 1200px */
+  margin: 0 auto;
+  height: 70px;
+}
+
+.navigation-bar {
+  position: sticky;
+  background-color: #000000;
+  height: 70px;
+  width: 100%;
+  top: 0;
+  text-align: center;
+  z-index: 7;
+}
+
+.navigation-bar img {
+  float: left;
+}
+
+.navigation-bar ul {
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.navigation-bar li {
+  list-style-type: none;
+  padding: 0px;
+  height: 24px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  display: inline;
+}
+
+.navigation-bar li a {
+  color: #fdd900;
+  font-size: 16px;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  line-height: 70px;
+  padding: 5px 15px;
+  opacity: 0.7;
+}
+
+.navigation-bar li a:hover {
+  color: red;
+}
+
+#menu {
+  float: right;
+}
+
+/* Background Image and Text */
+/* Fact 1 */
+
+.bgimage img {
+  position: relative;
+  width: 100%;
+  height: auto;
+  z-index: 1;
+  filter: blur(5px);
+}
+
+.bg-text {
+  background-color: rgba(0, 0, 0, 0.909);
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+  text-shadow: 3px 0px 7px rgba(0, 0, 0, 0.8), -3px 0px 7px rgba(0, 0, 0, 0.8),
+    0px 4px 7px rgba(0, 0, 0, 0.8);
+}
+
+.about-team {
+  font-size: larger;
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.meet h1 {
+  color: #ffffff;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: #c0bfbf solid;
+}
+
+/* Fact 2 */
+.fact-2 {
+  position: relative;
+  height: auto;
+  overflow: hidden; /* Ensure the container wraps around its floated children */
+}
+
+.fact-2 img {
+  width: 50%;
+  height: auto;
+  float: left; /* Align image to the left */
+}
+
+.fact-2-text {
+  background-color: rgb(19, 19, 19);
+  color: #fed502;
+  font-weight: bold;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 3;
+  width: 50%;
+  height: 100%; /* Adjusted height to match parent */
+  padding: 20px;
+  box-sizing: border-box; /* Include padding in the width calculation */
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  font-size: larger;
+  font-style: normal;
+  font-weight: normal;
+  text-shadow: 3px 0px 7px rgba(0, 0, 0, 0.8), -3px 0px 7px rgba(0, 0, 0, 0.8),
+    0px 4px 7px rgba(0, 0, 0, 0.8);
+}
+
+.fact-2-text p{
+  color: white;
+  text-align: justify;
+}
+
+
+/* Fact 3 */
+
+.fact-3 {
+  position: relative;
+  height: auto;
+  overflow: hidden; /* Ensure the container wraps around its floated children */
+}
+
+.fact-3 img {
+  width: 50%;
+  height: auto;
+  float: right; /* Align image to the left */
+}
+
+.fact-3-text {
+  background-color: rgb(19, 19, 19);
+  color: #fed502;
+  font-weight: bold;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  width: 50%;
+  height: 100%; /* Adjusted height to match parent */
+  padding: 20px;
+  box-sizing: border-box; /* Include padding in the width calculation */
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  font-size: larger;
+  font-style: normal;
+  font-weight: normal;
+  text-shadow: 3px 0px 7px rgba(0, 0, 0, 0.8), -3px 0px 7px rgba(0, 0, 0, 0.8),
+    0px 4px 7px rgba(0, 0, 0, 0.8);
+}
+
+.fact-3-text p{
+  color: white;
+  text-align: justify;
+}
+
+/* Fact 4 */
+
+.fact-4 {
+  position: relative;
+  height: auto;
+  overflow: hidden; /* Ensure the container wraps around its floated children */
+}
+
+.fact-4 img {
+  width: 50%;
+  height: auto;
+  float: left; /* Align image to the left */
+}
+
+.fact-4-text {
+  background-color: rgb(19, 19, 19);
+  color: #fed502;
+  font-weight: bold;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 3;
+  width: 50%;
+  height: 100%; /* Adjusted height to match parent */
+  padding: 20px;
+  box-sizing: border-box; /* Include padding in the width calculation */
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  font-size: large;
+  font-style: normal;
+  font-weight: normal;
+  text-shadow: 3px 0px 7px rgba(0, 0, 0, 0.8), -3px 0px 7px rgba(0, 0, 0, 0.8),
+    0px 4px 7px rgba(0, 0, 0, 0.8);
+}
+
+.fact-4-text p{
+  color: white;
+  text-align: justify;
+}
+
+/* Fact 5 */
+
+.fact-5 {
+  position: relative;
+  height: auto;
+  overflow: hidden; /* Ensure the container wraps around its floated children */
+}
+
+.fact-5 img {
+  width: 50%;
+  height: auto;
+  float: right; /* Align image to the left */
+}
+
+.fact-5-text {
+  background-color: rgb(19, 19, 19);
+  color: #fed502;
+  font-weight: bold;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  width: 50%;
+  height: 100%; /* Adjusted height to match parent */
+  padding: 20px;
+  box-sizing: border-box; /* Include padding in the width calculation */
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  font-size: large;
+  font-style: normal;
+  font-weight: normal;
+  text-shadow: 3px 0px 7px rgba(0, 0, 0, 0.8), -3px 0px 7px rgba(0, 0, 0, 0.8),
+    0px 4px 7px rgba(0, 0, 0, 0.8);
+}
+
+.fact-5-text p{
+  color: white;
+  text-align: justify;
+}
+
+/* Fact 4 */
+
+.fact-6 {
+  position: relative;
+  height: auto;
+  overflow: hidden; /* Ensure the container wraps around its floated children */
+}
+
+.fact-6 img {
+  width: 50%;
+  height: auto;
+  float: left; /* Align image to the left */
+}
+
+.fact-6-text {
+  background-color: rgb(19, 19, 19);
+  color: #fed502;
+  font-weight: bold;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 3;
+  width: 50%;
+  height: 100%; /* Adjusted height to match parent */
+  padding: 20px;
+  box-sizing: border-box; /* Include padding in the width calculation */
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  font-size: large;
+  font-style: normal;
+  font-weight: normal;
+  text-shadow: 3px 0px 7px rgba(0, 0, 0, 0.8), -3px 0px 7px rgba(0, 0, 0, 0.8),
+    0px 4px 7px rgba(0, 0, 0, 0.8);
+}
+
+.fact-6-text p{
+  color: white;
+  text-align: justify;
+}
+
+/* Footer */
+
+footer {
+  background-color: #111111; /* Match the color scheme of the webpage */
+  color: #fff; /* Text color */
+  padding: 40px 20px; /* Padding for content */
+}
+
+.container {
+  max-width: 1200px; /* Match the width of the navigation container */
+  margin: 0 auto;
+  text-align: center; /* Center align content */
+}
+
+h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #fff; /* Heading color */
+}
+
+.form-group {
+  margin-bottom: 20px;
+  text-align: left; /* Align form inputs to the left */
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"] {
+  width: 100%; /* Take up full width */
+  padding: 10px;
+  border: 1px solid #ddd; /* Light border */
+  border-radius: 5px;
+}
+
+button {
+  background-color: #3498db; /* Button color */
+  color: #fff; /* Text color */
+  border: none;
+  padding: 12px 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #2980b9; /* Darker color on hover */
+}
+
+
+
+/* Media Queries for Responsive Design */
+
+@media screen and (max-width: 768px) {
+  .navigation-bar ul {
+    display: block;
+    text-align: center;
+  }
+  
+  .navigation-bar li {
+    display: block;
+    margin: 10px 0;
+  }
+  
+  .navigation-bar li a {
+    padding: 5px 0;
+    display: block;
+    line-height: 1;
+  }
+}
+
+
